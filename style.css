@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    background-color: rgb(32, 30, 30);
+    padding:20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.logo-photo{
+    width: 200px;
+    
+}
+.menu{
+    display: flex;
+}
+.item{
+    margin: 10px;
+    padding: 7px;
+    font-size: 18px;
+    cursor: pointer;
+ 
+
+}
+.new{
+    text-decoration: none;
+}
+.new:link:{
+    color: rgb(170, 9, 30);
+}
+.new:visited{
+    color: rgb(73, 10, 190);
+}
+
+.new:active{
+    color: rgb(180, 211, 5);
+}
+.new:hover{
+    color: rgb(12, 189, 80);
+} 
+img{
+    width: 400px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 2px grey; */
+background-image: url('./images/background.png'),linear-gradient(45deg,rgb(8, 7, 7),black);
+color: white;
+}
+.explore{
+    color: white;
+    background-color: red;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+h1{
+    font-size: 30px;
+}
+.next{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    width: 300px;
+}
+.title{
+    text-align: top;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    height: 250px;
+    width: 230px;
+    box-shadow: 4px 4px 15px grey;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.icon{
+    width: 70px;
+}
+.btn{
+    margin: 10px;
+    color: brown;
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+ 
+color: white;
+}
+.new-section{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 2px grey; */
+background-image: url('./images/background.png'),linear-gradient(45deg,rgb(8, 7, 7),black);
+}
+.our{
+color: rgb(8, 127, 182);
+text-align: center;
+padding-top: 10px;
+}
+.hr{
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+text-align: center;
+
+padding: 50px;
+height: 30vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+/* border: 2px grey; */
+background-image: url('./images/background.png'),linear-gradient(45deg,rgb(26, 24, 24),black);
+color: white;
+
+}
+
+
+.bg{
+    height: 60vh;
+}
